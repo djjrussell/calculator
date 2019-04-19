@@ -58,7 +58,6 @@ export class Game extends React.Component {
     };
 
     handleClick(e) {
-        debugger;
         const tile = e.target;
 
         if (tile.dataset.marked === "true") {
